@@ -10,7 +10,7 @@ class EnumSecond {
 		//use values()
 		Apple allapples[] = Apple.values();
 		//for(Apple a: allapples)
-		for(Apple a: Apple.values())
+		for(Apple a: Apple.values())//this is better practice
 			System.out.println(a);
 		System.out.println();
 		//use valueof())
